@@ -1,0 +1,39 @@
+{
+  "cwd": "C:\\Codigo_Oficial\\tienda_online_app",
+  "type": [
+    "cordova"
+  ],
+  "name": "Comida a domicilio",
+  "framework": "vue",
+  "template": "split-view",
+  "bundler": "webpack",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": true,
+    "color": "#0039ff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "pkg": "io.framework7.myapp",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  }
+}
